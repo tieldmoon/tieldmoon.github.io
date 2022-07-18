@@ -7,7 +7,7 @@ function Signin() {
     })
     return (
         <div className="container mx-auto xl:w-5/12 lg:w-1/2 ">
-                <div className="bg-white p-6 shadow lg:mt-14 border xl:border-grey-900">                                        
+                <div className="bg-white p-6 lg:shadow lg:mt-14 lg:border lg:border-grey-900">                                        
                         <div className="lg:mb-9 mb-16">
                             <h4 className="text-md font-bold text-2xl">Sign-In</h4>
                             <span className="text-sm">Sign-in to <span className="text-purple-700 font-bold">tieldmon</span> before starting...</span>
