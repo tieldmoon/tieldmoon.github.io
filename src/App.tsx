@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   useEffect(() => {
-      document.title = 'Tieldmoon';
+      document.title = 'Tieldmoon';    
   })  
   return (
     <div className="App">

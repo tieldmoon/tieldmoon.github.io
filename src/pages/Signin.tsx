@@ -6,29 +6,33 @@ function Signin() {
         document.title = 'Tieldmoon | Sign-in';
     })
     return (
-        <div className="container mx-auto w-5/12">            
-                <div className="mt-12 bg-white p-5 shadow-md">                    
-                    <div className="mb-6">
-                        <h4 className="text-md font-bold text-2xl">Sign-In</h4>
-                        <span className="text-sm">Sign-in to <span className="text-purple-700 font-bold">tieldmon</span> before starting...</span>
-                    </div>                    
-                    <div className="mx-5">                        
-                        <form>
-                            <div className="py-2">
-                                <label>email</label>
-                                <input type="email" className="border rounded w-full p-4" name="email"  placeholder="Email"/>
-                            </div>
-                            <div className="py-2">
-                                <label>password</label>
-                                <input type="password" className="border rounded w-full p-4" name="" placeholder="Password" />
-                            </div>
-                            <div className="py-2 mt-2">
-                                <button className="bg-purple-700 p-4 w-full rounded-lg  text-white font-bold" >Sign-in</button>
-                            </div>
-                        </form>
-                        <div className="py-3 text-md">
-                            <small>Copyright &copy; 2022 <span className="italic">Tieldmoon</span></small>
-                        </div>
+        <div className="container mx-auto xl:w-5/12 lg:w-1/2 ">
+                <div className="bg-white p-6 shadow lg:mt-14 border xl:border-grey-900">                                        
+                        <div className="mb-9">
+                            <h4 className="text-md font-bold text-2xl">Sign-In</h4>
+                            <span className="text-sm">Sign-in to <span className="text-purple-700 font-bold">tieldmon</span> before starting...</span>
+                        </div>                    
+                        <div className="mx-3">                        
+                            {/* <form> */}
+                                <div className="mb-3">
+                                    <label htmlFor="email">email</label>
+                                    <input type="email" id="email" className="border rounded w-full p-4" name="email"  placeholder="Email"/>
+                                </div>
+                                <div className="mb-3">
+                                    <label>password</label>
+                                    <input type="password" className="border rounded w-full p-4" name="" placeholder="Password" />
+                                </div>
+                                <div className="mb-3 flex  items-center">
+                                    <input type="checkbox" name="" id="" className="flex-none mr-2 border"/>
+                                    <span className="text-md flex-grow">Remember me ?</span>
+                                </div>
+                                <div className="mb-4">
+                                    <button className="bg-purple-700 p-4 w-full rounded-lg  text-white font-bold" >Sign-in</button>
+                                </div>
+                            {/* </form> */}
+                            <div className="py-3 text-md">
+                                <small>Copyright &copy; 2022 <span className="italic">Tieldmoon</span></small>
+                            </div>                        
                     </div>
                 </div>
             
