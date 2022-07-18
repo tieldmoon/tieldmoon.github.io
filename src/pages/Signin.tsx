@@ -8,18 +8,18 @@ function Signin() {
     return (
         <div className="container mx-auto xl:w-5/12 lg:w-1/2 ">
                 <div className="bg-white p-6 shadow lg:mt-14 border xl:border-grey-900">                                        
-                        <div className="mb-9">
+                        <div className="lg:mb-9 mb-16">
                             <h4 className="text-md font-bold text-2xl">Sign-In</h4>
                             <span className="text-sm">Sign-in to <span className="text-purple-700 font-bold">tieldmon</span> before starting...</span>
                         </div>                    
-                        <div className="mx-3">                        
+                        <div className="lg:mx-3">                        
                             {/* <form> */}
                                 <div className="mb-3">
-                                    <label htmlFor="email">email</label>
+                                    <label htmlFor="email" className="mb-1">email</label>
                                     <input type="email" id="email" className="border rounded w-full p-4" name="email"  placeholder="Email"/>
                                 </div>
                                 <div className="mb-3">
-                                    <label>password</label>
+                                    <label className="mb-1">password</label>
                                     <input type="password" className="border rounded w-full p-4" name="" placeholder="Password" />
                                 </div>
                                 <div className="mb-3 flex  items-center">
